@@ -16,6 +16,8 @@ Aplikasi Android yang digunakan sebagai simulasi sistem informasi akademik denga
   - Lihat riwayat presensi
 - Kaprodi memiliki tampilan khusus untuk monitoring akademik
 
+
+---
 ## 🧩 Struktur Folder
 
 com.example.tugasrancang
@@ -62,7 +64,7 @@ com.example.tugasrancang
 │ ├── KrsViewModel.kt
 │ └── NilaiViewModel.kt
 
-
+---
 
 ## 🛠️ Teknologi
 
@@ -78,7 +80,7 @@ Beberapa file tidak diupload ke GitHub karena melebihi batas ukuran GitHub (100M
  ------------------------------------------------------------------
 | File               | Link Download                               |
 |--------------------|---------------------------------------------|
-| Demo Video (.webm) | [Klik untuk Download]([https://drive.google.com/your-demo-video-link](https://drive.google.com/file/d/1IXV6imjeOu6qipt20aNhfmMgyyqaBaln/view?usp=sharing)) |
+| Demo Video (.webm) | [Klik untuk Download]([[https://drive.google.com/your-demo-video-link](https://drive.google.com/file/d/1IXV6imjeOu6qipt20aNhfmMgyyqaBaln/view?usp=sharing)]) |
 
 
 > ⚠️ Jika link mati atau belum tersedia, silakan hubungi pembuat repo ini.
