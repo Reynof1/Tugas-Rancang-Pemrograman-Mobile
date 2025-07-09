@@ -1,0 +1,340 @@
+{
+  "hasilStudi": {
+    "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+      "2023-1": {
+        "detail": {
+          "TC101A": {
+            "grade": "A",
+            "namaMatkul": "Algoritma dan Pemrograman",
+            "nilai": 85,
+            "sks": 3
+          },
+          "TC102B": {
+            "grade": "B",
+            "namaMatkul": "Matematika Diskrit",
+            "nilai": 70,
+            "sks": 3
+          }
+        },
+        "ip": 3.5,
+        "ipk": 3.5,
+        "jumlahSks": 6
+      },
+      "2023-2": {
+        "detail": {
+          "TC110A": {
+            "grade": "A",
+            "namaMatkul": "Pemrograman Mobile",
+            "nilai": 87,
+            "sks": 3
+          },
+          "TC111Z": {
+            "grade": "B",
+            "namaMatkul": "Web Service",
+            "nilai": 80,
+            "sks": 3
+          },
+          "TC112A": {
+            "grade": "C",
+            "namaMatkul": "Pemrograman Mobile",
+            "nilai": 65,
+            "sks": 3
+          },
+          "TC210A": {
+            "grade": "B",
+            "namaMatkul": "Pemrograman Berorientasi Platfrom",
+            "nilai": 75,
+            "sks": 4
+          }
+        },
+        "ip": 3.08,
+        "ipk": 3.29,
+        "jumlahSks": 13
+      }
+    }
+  },
+  "mataKuliah": {
+    "DX110E": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "hari": "Rabu",
+      "jam": "10.00-12.00",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Bahasa Indonesia",
+      "sks": 2
+    },
+    "TC110A": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "hari": "Senin",
+      "jam": "10:00-12:00",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Pemrograman Mobile",
+      "nilaiMahasiswa": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": 87
+      },
+      "sks": 3
+    },
+    "TC111Z": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Web Service",
+      "nilaiMahasiswa": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": 80
+      },
+      "sks": 3
+    },
+    "TC112A": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Pemrograman Mobile",
+      "nilaiMahasiswa": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": 65
+      },
+      "sks": 3
+    },
+    "TC210A": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "hari": "Senin",
+      "jam": "07.00-09.00",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Pemrograman Berorientasi Platfrom",
+      "nilaiMahasiswa": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": 75
+      },
+      "sks": 4
+    },
+    "TC310X": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "hari": "Kamis",
+      "jam": "07.00-10.00",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Grafika Komputer",
+      "sks": 4
+    },
+    "TC511V": {
+      "dosenPengampuId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "hari": "Jumat",
+      "jam": "13.00-16.00",
+      "mahasiswaTerdaftar": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": true
+      },
+      "namaMatkul": "Jaringan Komputer",
+      "sks": 6
+    }
+  },
+  "sesiAbsen": {
+    "-OUj0IKQBnksm7ZFYImh": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC111Z",
+      "status": "tertutup",
+      "waktuBuka": 1752061785482
+    },
+    "-OUj8nOnOyhuj9wnjGqn": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752064056505
+        }
+      },
+      "status": "tertutup",
+      "waktuBuka": 1752064013990
+    },
+    "-OUjDP95RuFXf86vCcU8": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC112A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752065256699
+        }
+      },
+      "status": "tertutup",
+      "waktuBuka": 1752065221304
+    },
+    "-OUjEtfcANL0rD7ZNg39": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "status": "tertutup",
+      "waktuBuka": 1752065612570
+    },
+    "-OUjFbr-wyqGbQYQNfR3": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "status": "tertutup",
+      "waktuBuka": 1752065801715
+    },
+    "-OUjFd-QgdQf42OeABuq": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC111Z",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752070731116
+        }
+      },
+      "status": "tertutup",
+      "waktuBuka": 1752065806409
+    },
+    "-OUjXHSjnhYMCQ14AQwj": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "status": "tertutup",
+      "waktuBuka": 1752070432675
+    },
+    "-OUjXIA_c--XjsVglN78": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752070729538
+        }
+      },
+      "status": "tertutup",
+      "waktuBuka": 1752070435607
+    },
+    "-OUjY4KwOqXlQvUWvSIw": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC310X",
+      "status": "tertutup",
+      "waktuBuka": 1752070641107
+    },
+    "-OUjZc_gLiuIcjYzZp4P": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC112A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752071113515
+        }
+      },
+      "status": "terbuka",
+      "waktuBuka": 1752071047630
+    },
+    "-OUjZdpEurIdAJkh8P7B": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC511V",
+      "status": "terbuka",
+      "waktuBuka": 1752071052719
+    },
+    "-OUj_U5vIXShlb_I0KlU": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC210A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752071358131
+        }
+      },
+      "status": "terbuka",
+      "waktuBuka": 1752071270890
+    },
+    "-OUj_V3QBTxu3NlGevCw": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "DX110E",
+      "status": "terbuka",
+      "waktuBuka": 1752071274825
+    },
+    "-OUj_W36uIoZKDg_wVCp": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1752071356857
+        }
+      },
+      "status": "terbuka",
+      "waktuBuka": 1752071278901
+    },
+    "-TestSesi001": {
+      "dosenId": "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3",
+      "kodeKelas": "TC110A",
+      "mahasiswaHadir": {
+        "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+          "nama": "Omega Reynof Christiano",
+          "waktuAbsen": 1720497720000
+        }
+      },
+      "status": "tertutup",
+      "waktuBuka": 1720497600000
+    }
+  },
+  "transkripNilai": {
+    "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+      "2023-1": {
+        "TC101A": {
+          "grade": "A",
+          "namaMatkul": "Algoritma dan Pemrograman",
+          "nilai": 85,
+          "sks": 3
+        },
+        "TC102B": {
+          "grade": "B",
+          "namaMatkul": "Matematika Diskrit",
+          "nilai": 70,
+          "sks": 3
+        }
+      },
+      "2023-2": {
+        "TC110A": {
+          "grade": "A",
+          "namaMatkul": "Pemrograman Mobile",
+          "nilai": 87,
+          "sks": 3
+        },
+        "TC111Z": {
+          "grade": "B",
+          "namaMatkul": "Web Service",
+          "nilai": 80,
+          "sks": 3
+        },
+        "TC112A": {
+          "grade": "C",
+          "namaMatkul": "Pemrograman Mobile",
+          "nilai": 65,
+          "sks": 3
+        },
+        "TC210A": {
+          "grade": "B",
+          "namaMatkul": "Pemrograman Berorientasi Platfrom",
+          "nilai": 75,
+          "sks": 4
+        }
+      }
+    }
+  },
+  "users": {
+    "1ZYui4ow8sQCJ6Vu4cXfSSc5pUA3": {
+      "email": "dosen@siasat.com",
+      "nama": "Dosen",
+      "nomorInduk": "88776655",
+      "role": "dosen"
+    },
+    "M167FoFCg9UfjdJ3zjl5WWr00fl1": {
+      "email": "kaprodi@siasat.com",
+      "nama": "Kaprodi",
+      "nomorInduk": "99887766",
+      "role": "kaprodi"
+    },
+    "RTls0Pzb1Oes0sAOEIoYFkazkI52": {
+      "email": "omega@siasat.com",
+      "nama": "Omega Reynof Christiano",
+      "nomorInduk": "672022307",
+      "role": "mahasiswa"
+    }
+  }
+}
