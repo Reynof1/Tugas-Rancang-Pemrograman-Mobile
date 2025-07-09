@@ -82,5 +82,6 @@ com.example.tugasrancang
 
 * Proyek ini **belum support upload video/webm besar ke GitHub** (karena limitasi file >100MB).
 * Untuk menyimpan video demonstrasi, ada dalam link berikut : [https://drive.google.com/file/d/1IXV6imjeOu6qipt20aNhfmMgyyqaBaln/view?usp=sharing]
+* Output dari database ada dalam file Export Database.json
 
 ---
