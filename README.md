@@ -1,98 +1,86 @@
-# Tugas Rancang Pemrograman Mobile
+---
 
-Aplikasi Android yang digunakan sebagai simulasi sistem informasi akademik dengan peran Mahasiswa, Dosen, dan Kaprodi.
+### 📱 SIASAT Mobile – Sistem Informasi Akademik Mahasiswa dan Dosen
 
-## 📱 Fitur Utama
-
-- Login untuk Mahasiswa, Dosen, dan Kaprodi
-- Mahasiswa dapat melihat:
-  - Kartu Studi
-  - Jadwal Kuliah
-  - Hasil Studi
-  - Transkrip Nilai
-- Dosen dapat:
-  - Melihat daftar matkul
-  - Input nilai & presensi
-  - Lihat riwayat presensi
-- Kaprodi memiliki tampilan khusus untuk monitoring akademik
-
+Aplikasi mobile berbasis **Jetpack Compose** yang terintegrasi dengan **Firebase Realtime Database & Authentication**, dirancang untuk membantu kegiatan akademik mahasiswa, dosen, dan kaprodi dalam satu platform.
 
 ---
-## 🧩 Struktur Folder
 
+### 🧩 Fitur Utama
+
+#### 👨‍🎓 Mahasiswa
+
+* **Login Otentikasi**
+* **Isi Kartu Rencana Studi (KRS)**
+* **Lihat Jadwal Kuliah**
+* **Kartu Studi (KHS)**
+* **Transkrip Nilai & Hasil Studi per Semester**
+* **Presensi (Absen Online) secara Real-time**
+
+#### 👨‍🏫 Dosen
+
+* **Lihat Daftar Mata Kuliah yang Diampu**
+* **Buka & Tutup Sesi Presensi**
+* **Input Nilai Mahasiswa**
+* **Lihat Riwayat Presensi Tiap Sesi**
+
+#### 👨‍💼 Kaprodi
+
+* **Tambah Mata Kuliah Baru**
+* **Tentukan Dosen Pengampu**
+* **Manajemen Struktur Akademik**
+
+---
+
+### 🛠 Teknologi
+
+* **Kotlin** (Jetpack Compose UI)
+* **Firebase Realtime Database**
+* **Firebase Auth**
+* **MVVM Architecture**
+* **Navigation Compose**
+* **StateFlow & ViewModel**
+
+---
+
+### 🗂 Struktur Folder Utama
+
+```
 com.example.tugasrancang
-├── model
-│ └── TranskripMatkul.kt
-│
+├── model                 → Data model (e.g. TranskripMatkul.kt)
 ├── ui
-│ ├── dosen
-│ │ ├── DosenHomeScreen.kt
-│ │ ├── DosenInputNilaiScreen.kt
-│ │ ├── DosenPilihMatkulNilaiScreen.kt
-│ │ ├── DosenPilihMatkulPresensiScreen.kt
-│ │ ├── DosenPilihMatkulRiwayatScreen.kt
-│ │ ├── DosenSesiScreen.kt
-│ │ └── RiwayatPresensiScreen.kt
-│ │
-│ ├── kaprodi
-│ │ └── KaprodiHomeScreen.kt
-│ │
-│ ├── login
-│ │ └── LoginScreen.kt
-│ │
-│ ├── mahasiswa
-│ │ ├── HasilStudiScreen.kt
-│ │ ├── JadwalKuliahScreen.kt
-│ │ ├── KartuStudiScreen.kt
-│ │ ├── MahasiswaHomeScreen.kt
-│ │ ├── TranskripScreen.kt
-│ │ └── mahasiswa.kt
-│ │
-│ ├── theme
-│ │ ├── Color.kt
-│ │ └── Type.kt
-│ │
-│ └── AppDrawer.kt
-│
-├── viewmodel
-│ ├── DosenViewModel.kt
-│ ├── KaprodiViewModel.kt
-│ ├── LoginViewModel.kt
-│ ├── MahasiswaViewModel.kt
-│ ├── NilaiViewModel.kt
-│ ├── JadwalViewModel.kt
-│ ├── KrsViewModel.kt
-│ └── NilaiViewModel.kt
+│   ├── login             → LoginScreen.kt
+│   ├── dosen             → Semua fitur & tampilan untuk dosen
+│   ├── mahasiswa         → Semua fitur & tampilan mahasiswa
+│   ├── kaprodi           → Form tambah matakuliah oleh kaprodi
+│   └── theme             → Custom theme, color & typography
+├── viewmodel             → ViewModel untuk setiap role (MVVM)
+```
 
 ---
 
-## 🛠️ Teknologi
+### 🚀 Cara Menjalankan
 
-- **Jetpack Compose**
-- **MVVM Architecture**
-- **Material 3**
-- **ViewModel & StateFlow**
-- **Kotlin DSL (Gradle)**
-
-## 📦 File Tambahan (Tidak tersedia di GitHub)
-
-Beberapa file tidak diupload ke GitHub karena melebihi batas ukuran GitHub (100MB), silakan unduh melalui Google Drive:
- ------------------------------------------------------------------
-| File               | Link Download                               |
-|--------------------|---------------------------------------------|
-| Demo Video (.webm) | [https://drive.google.com/file/d/1IXV6imjeOu6qipt20aNhfmMgyyqaBaln/view?usp=sharing]|
-
-
-> ⚠️ Jika link mati atau belum tersedia, silakan hubungi pembuat repo ini.
-
-## ✍️ Kontribusi
-
-Proyek ini dikembangkan untuk tugas rancang mata kuliah Pemrograman Mobile. Kontribusi, pull request, dan feedback sangat diterima!
-
-## 👤 Author
-
-- Nama: Omega Reynof Christiano
-- GitHub: [@Reynof1](https://github.com/Reynof1) 
+1. Buka proyek di **Android Studio**
+2. Pastikan koneksi internet aktif (menggunakan Firebase)
+3. Jalankan emulator atau device fisik
+4. Login menggunakan akun Firebase yang valid
 
 ---
 
+### 🔐 Login Role (contoh data Firebase)
+
+| Role      | Email                                             | Password |
+| --------- | ------------------------------------------------- | -------- |
+| Mahasiswa | [mahasiswa@gmail.com](mailto:mahasiswa@gmail.com) | mahasiswa   |
+| Dosen     | [dosen@gmail.com](mailto:dosen@gmail.com)         | dosenn   |
+| Kaprodi   | [kaprodi@gmail.com](mailto:kaprodi@gmail.com)     | kaprodi   |
+
+---
+
+### ✨ Catatan
+
+* Proyek ini **belum support upload video/webm besar ke GitHub** (karena limitasi file >100MB).
+* Untuk menyimpan video demonstrasi, ada dalam link berikut : [https://drive.google.com/file/d/1IXV6imjeOu6qipt20aNhfmMgyyqaBaln/view?usp=sharing]
+
+---
